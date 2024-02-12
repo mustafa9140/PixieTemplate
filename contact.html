@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Pixie Styles -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <title>Pixie Multipurpose Website HTML5 Template</title>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Top Navigation -->
+        <section class="top-nav d-none d-lg-block ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center social-icons animate__animated animate__fadeInUp">
+                                <div><a href="#"><i class="fa-brands fa-facebook-f far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-x-twitter far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-linkedin far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-youtube far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-instagram far"></i></a></div>
+                            </div>
+                            <div class="d-flex align-items-center contact-bar animate__animated animate__fadeInUp">
+                                <div>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> (415) 555-0132</a>
+                                </div>
+                                <div>
+                                    <a href="#"><i class="fa-regular fa-envelope"></i> email@example.com</a>
+                                </div>
+                                <div>
+                                    <span href="#"><i class="fa-regular fa-clock"></i> Mon - Fri, 09:00AM to
+                                        06:00PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Navigation -->
+        <section class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div
+                                class="d-lg-flex justify-content-between align-items-lg-center align-items-start  w-100">
+                                <a class="navbar-brand logo animate__animated animate__fadeInUp"
+                                    href="./index.html">P<span class="clr-lightblue">i</span>X<span
+                                        class="clr-navy">i</span>E</a>
+                                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <img class="open" src="./assets/images/burger-menu-right.svg" />
+                                    <img class="close" src="./assets/images/close.svg" />
+                                </button>
+                                <div class="collapse navbar-collapse flex-grow-0 animate__animated animate__fadeInUp"
+                                    id="navbarSupportedContent">
+                                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./services.html">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="./team.html">Team</a></li>
+                                                <li><a class="dropdown-item" href="./faqs.html">FAQs</a></li>
+                                                <li><a class="dropdown-item active" href="./contact.html">Contact Us</a></li>
+                                                <li><a class="dropdown-item" href="./404.html">404 (Not Found)</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <form class="d-none">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    </form>
+                                    <a class="btn btn-primary ms-5 d-lg-block d-none" href="./contact.html">Get A
+                                        Quote</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+
+    <!-- Banner With Breadcrumbs -->
+    <section class="banner-with-bcrumbs bg-bglightblue pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mb-5">
+                        <h1 class="animate__animated animate__fadeInUp">Contact Us</h1>
+                    </div>
+                    <div class="breadcrumbs text-center fw-600 animate__animated animate__fadeInUp">
+                        <a class="link link-navy" href="./">Home</a>
+                        <span class="clr-black">&gt;</span>
+                        <span>Contact Us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="pt-100 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pb-50 animate__animated animate__fadeInUp">
+                    <div class="d-flex justify-content-start align-items-center p-5 border-lightgray-1 br-30">
+                        <div
+                            class="bg-bglightblue contact-icon d-flex justify-content-center align-items-center me-5 clr-lightblue fs-40 br-200">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-600">Talk with us</h5>
+                            <!-- <p class="m-0"><a href="#" class="link link-navy fs-20">+125 (895) 658 568</a> </p> -->
+                            <p><a href="#" class="link link-navy fs-20">+125 (895) 658 568</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-50 animate__animated animate__fadeInUp">
+                    <div class="d-flex justify-content-start align-items-center p-5 border-lightgray-1 br-30">
+                        <div
+                            class="bg-bglightblue contact-icon d-flex justify-content-center align-items-center me-5 clr-lightblue fs-40 br-200">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-600">Write to us</h5>
+                            <!-- <p class="m-0"><a href="#" class="link link-navy fs-20">email@example.com</a> </p> -->
+                            <p><a href="#" class="link link-navy fs-20">email@example.com</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pb-50 animate__animated animate__fadeInUp">
+                    <div class="d-flex justify-content-start align-items-center p-5 border-lightgray-1 br-30">
+                        <div
+                            class="bg-bglightblue contact-icon d-flex justify-content-center align-items-center me-5 clr-lightblue fs-40 br-200">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-600">Reah out to us</h5>
+                            <p class="m-0"><span class="link link-navy fs-20"> Union Street 3254, Baton, New York</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contoct Form Section -->
+    <section class="pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 offset-2 text-center">
+                    <h2 class="bottom-line bottom-line-center pb-20 mb-25 animate__animated animate__fadeInUp">Get in
+                        <span class="clr-lightblue">touch</span></h2>
+                    <p class="animate__animated animate__fadeInUp">Greetings! We're thrilled that you're considering
+                        reaching out to us. Kindly complete the contact form provided below, and we'll get back to you
+                        at the earliest opportunity. We're eagerly anticipating your message</p>
+                </div>
+                <div class="col-md-10 offset-md-1 mt-50">
+                    <form class=" pt-50 pb-20 px-50 animate__animated animate__fadeInUp" action="">
+                        <div class="row">
+                            <div class="col-md-6 mb-25">
+                                <div class="form-group">
+                                    <!-- <label for="fname">First Name</label> -->
+                                    <input type="text"
+                                        class="form-control bg-bglightblue fs-18 border-none px-20 py-10 br-6"
+                                        id="fname" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-25">
+                                <div class="form-group">
+                                    <!-- <label for="lname">Last Name</label> -->
+                                    <input type="text"
+                                        class="form-control bg-bglightblue fs-18 border-none px-20 py-10 br-6"
+                                        id="lname" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-25">
+                                <div class="form-group">
+                                    <!-- <label for="email">Email</label> -->
+                                    <input type="text"
+                                        class="form-control bg-bglightblue fs-18 border-none px-20 py-10 br-6"
+                                        id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-25">
+                                <div class="form-group">
+                                    <!-- <label for="phone">Phone Number</label> -->
+                                    <input type="text"
+                                        class="form-control bg-bglightblue fs-18 border-none px-20 py-10 br-6"
+                                        id="phone" placeholder="Phone Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mb-25">
+                                <div class="form-group">
+                                    <!-- <label for="message">Message</label> -->
+                                    <textarea class="form-control bg-bglightblue fs-18 border-none px-20 py-10 br-6"
+                                        id="message" rows="5" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mb-25">
+                                <div class="form-group">
+                                    <button type="submit"
+                                        class="btn btn-primary br-6 w-100 animate__animated animate__fadeInUp wow">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Map Section -->
+    <section class="w-100 float-start clearfix">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184133756017!2d-73.98812288814875!3d40.75797467126738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2s!4v1702478074535!5m2!1sen!2s"
+            class="w-100 float-start" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <!-- Newsletter Section -->
+    <section class="pt-100 pb-100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2 class="bottom-line bottom-line-center pb-20 mb-25 animate__animated animate__fadeInUp wow">
+                        Discover & <span class="clr-lightblue">empower!</span></h2>
+                    <p class="animate__animated animate__fadeInUp wow">Unlock a world of diverse insights and exclusive
+                        content, join our newsletter for a journey of empowerment and discovery!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 mt-3 text-center">
+                    <form action="" class="">
+                        <div
+                            class="w-100 d-flex justify-content-center align-items-center border-lightgray-1 br-6 flex-row px-20 py-10">
+                            <div class="icon">
+                                <label for="newsletter"><i
+                                        class="fa-regular fa-envelope clr-navy fs-18 animate__animated animate__fadeInUp wow"></i></label>
+
+                            </div>
+                            <input type="text" id="newsletter"
+                                class="form-control fs-18 border-none px-20 py-10 br-6 box-shadow-none animate__animated animate__fadeInUp wow"
+                                placeholder="Enetr your email address" />
+                            <button type="submit"
+                                class="btn btn-primary br-6 nowrap animate__animated animate__fadeInUp wow">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="clearfix">
+
+        <!-- Main Footer -->
+        <section class="main-footer clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="navbar-brand logo animate__animated animate__fadeInUp wow" href="#">P<span
+                                class="clr-lightblue">i</span>X<span class="clr-navy">i</span>E</a>
+                        <p class="animate__animated animate__fadeInUp wow">Praesent nisl tortor, efficitur ac dolor eu,
+                            pulvinar bibendum nisl.</p>
+                        <div class="social mt-20">
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-facebook-f far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-x-twitter far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-linkedin far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-youtube far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-instagram far"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-md-1">
+                        <h6 class="animate__animated animate__fadeInUp wow">Company</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">About Us</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Careers</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Press & Media</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Contact Us</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Discover</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Our Blog</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Advertising</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Plans & Pricing</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Testimonials</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Legal</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Terms of Use</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Cookie Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">All FAQs</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Connect</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" class="fs-16" href="#"><i
+                                    class="fa-regular fa-envelope me_5"></i> email@example.com</a></div>
+                        <div><span class="fs-16 clr-navy mb-10 d-inline-block animate__animated animate__fadeInUp wow"
+                                href="#"><i class="fa-solid fa-location-dot me_5"></i> Union Street 3254, Baton</span>
+                        </div>
+                        <div><span class="fs-16 clr-navy animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-regular fa-clock me_5"></i> Mon - Fri, 09AM to 06PM</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom Footer -->
+        <section class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 animate__animated animate__fadeInUp wow">
+                        2024 &copy; Copyright, <a href="#">Nexus Themes</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-end">
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Terms & Privacy</a>
+                            <span class="divider"></span>
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to top button -->
+        <a href="#" class="backtotop"><i class="fa-solid fa-arrow-up"></i></a>
+
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Muri Masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- Wow Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Pixie Scripts -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

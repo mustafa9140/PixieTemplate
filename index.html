@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Pixie Styles -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <title>Pixie Multipurpose Website HTML5 Template</title>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Top Navigation -->
+        <section class="top-nav d-none d-lg-block ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center social-icons animate__animated animate__fadeInUp">
+                                <div><a href="#"><i class="fa-brands fa-facebook-f far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-x-twitter far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-linkedin far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-youtube far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-instagram far"></i></a></div>
+                            </div>
+                            <div class="d-flex align-items-center contact-bar animate__animated animate__fadeInUp">
+                                <div>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> (415) 555-0132</a>
+                                </div>
+                                <div>
+                                    <a href="#"><i class="fa-regular fa-envelope"></i> email@example.com</a>
+                                </div>
+                                <div>
+                                    <span href="#"><i class="fa-regular fa-clock"></i> Mon - Fri, 09:00AM to
+                                        06:00PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Navigation -->
+        <section class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div
+                                class="d-lg-flex justify-content-between align-items-lg-center align-items-start  w-100">
+                                <a class="navbar-brand logo animate__animated animate__fadeInUp"
+                                    href="./index.html">P<span class="clr-lightblue">i</span>X<span
+                                        class="clr-navy">i</span>E</a>
+                                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <img class="open" src="./assets/images/burger-menu-right.svg" />
+                                    <img class="close" src="./assets/images/close.svg" />
+                                </button>
+                                <div class="collapse navbar-collapse flex-grow-0 animate__animated animate__fadeInUp"
+                                    id="navbarSupportedContent">
+                                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./services.html">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="./team.html">Team</a></li>
+                                                <li><a class="dropdown-item" href="./faqs.html">FAQs</a></li>
+                                                <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                                                <li><a class="dropdown-item" href="./404.html">404 (Not Found)</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <form class="d-none">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    </form>
+                                    <a class="btn btn-primary ms-5 d-lg-block d-none" href="./contact.html">Get A
+                                        Quote</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 description">
+                    <h6 class="pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp">Expand the
+                        boundries</h6>
+                    <h1 class="animate__animated animate__fadeInUp">
+                        A Big
+                        <span class="clr-lightblue "> Opportutnity</span>
+                        For Your Business<span class=" clr-lightblue"> Growth</span>
+                    </h1>
+                    <p class="mb-25 fs-20 animate__animated animate__fadeInUp">Every business, irrespective of size or
+                        industry, should thrive in today's dynamic economy.</p>
+                    <a href="#" class="btn me-10 animate__animated animate__fadeInUp">Learn More</a>
+                    <a href="#" class="btn btn-primary animate__animated animate__fadeInUp">Get Started</a>
+                </div>
+                <div class="col-md-6 hero-image">
+                    <img class="w-100 animate__animated animate__fadeInUp" src="./assets/images/hero-animated.svg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 pt-30 pb-30">
+                    <div class="row animate__animated animate__fadeInUp wow">
+                        <div class="col-md-4 text-center pt-20 pb-20">
+                            <h2>
+                                <span class="counter" data-count="300">0</span>+
+                            </h2>
+                            <p class="">Projects Done </p>
+                        </div>
+                        <div class="col-md-4 text-center pt-20 pb-20">
+                            <h2>
+                                <span class="counter" data-count="90">0</span>M+
+                            </h2>
+                            <p class="">Overall Audience</p>
+                        </div>
+                        <div class="col-md-4 text-center pt-20 pb-20">
+                            <h2>
+                                <span class="counter" data-count="250">0</span>+
+                            </h2>
+                            <p class="">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Success Section -->
+    <section class="success-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="h-100 d-flex justify-content-center align-items-center">
+                        <img class="w-100 animate__animated animate__fadeInUp wow"
+                            src="./assets/images/success-section.svg" />
+                    </div>
+
+                </div>
+                <div class="col-md-6 ">
+                    <h2 class="fw-600 animate__animated animate__fadeInUp wow">One of the fastest way to gain business
+                        <span class="clr-lightblue">success</span> </h2>
+                    <p class="animate__animated animate__fadeInUp wow">We conduct a comprehensive analysis of the
+                        client's website, gathering data on all competitors to develop an effective strategy. In online
+                        marketing, there is no one-size-fits-all solution.</p>
+                    <ul>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Track your progress</span></li>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Pick up the tool</span></li>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Multiply global marketing strategy</span>
+                        </li>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Integrate it on your business</span></li>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Virtual support team</span></li>
+                        <li class="animate__animated animate__fadeInUp wow"><i
+                                class="fa-regular fa-circle-check"></i><span>Let's monitor the engagement</span></li>
+                    </ul>
+                    <div>
+                        <a href="#" class="btn btn-primary me-10 animate__animated animate__fadeInUp wow">Begin Here</a>
+                        <a href="#" class="btn animate__animated animate__fadeInUp wow">
+                            Call Us Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Choose Us Section  -->
+    <section class="why-choose-us position-relative">
+        <div class="container desc">
+            <div class="col-md-5 position-relative">
+                <h6 class="clr-pink fw-500 mb-25 text-uppercase animate__animated animate__fadeInUp wow">COMPANY
+                    BENEFITS</h6>
+                <h2 class="fw-600 mb-25 animate__animated animate__fadeInUp wow">Why should you choose <span
+                        class="clr-lightblue">our agency</span>?</h2>
+                <p class="mb-50 fs-18 animate__animated animate__fadeInUp wow">There are many variations of passages of
+                    available, but that new majority have suffered alteration in simply free text available in the
+                    market some form, injected humour, or randomised words</p>
+                <div class="row">
+                    <div class="col-md-6 mb-15">
+                        <div class="d-flex align-items-center justify-content-start ">
+                            <div class="icon me-4 animate__animated animate__fadeInUp wow"><img class="w-100"
+                                    src="./assets/images/result.svg" alt=""></div>
+                            <h6 class="fw-700 fs-16 animate__animated animate__fadeInUp wow">Accurate Work</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-30">
+                        <div class="d-flex align-items-center justify-content-start ">
+                            <div class="icon me-4 animate__animated animate__fadeInUp wow"><img class="w-100"
+                                    src="./assets/images/precise.svg" alt=""></div>
+                            <h6 class="fw-700 fs-16 animate__animated animate__fadeInUp wow">Precise Results</h6>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="animate__animated animate__fadeInUp wow">
+                        <i class="fa-regular fa-circle-check"></i> If you are going to use a passage of you need
+                    </li>
+                    <li class="animate__animated animate__fadeInUp wow">
+                        <i class="fa-regular fa-circle-check"></i> Lorem ipsum available, but the majority have suffered
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-primary mt-5 animate__animated animate__fadeInUp wow">Explore Now</a>
+            </div>
+            <div class="col-md-6">
+
+
+            </div>
+        </div>
+        <div class="image w-100 h-100">
+            <div class="row  h-100">
+                <div class="col-md-6">
+                    &nbsp;
+                </div>
+                <div class="col-md-6  h-100 image position-relative">
+
+                </div>
+            </div>
+        </div>
+        <div class="exp clr-navy animate__animated animate__fadeInUp wow">
+            <div class="icon">
+                <img src="./assets/images/jewel2.svg" alt="">
+            </div>
+            <div>
+                <h4 class="fw-700">25+</h4>
+                <p class="fw-300">YEARS OF EXELENCE</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="services pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="clr- mb-50 fw-600 animate__animated animate__fadeInUp wow"><span
+                            class="clr-lightblue">Services</span> for our valued customers</h2>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="single-servie">
+                        <div class="icon">
+                            <img src="./assets/images/teams.svg" />
+                            <img class="on-hover" src="./assets/images/teams.svg" />
+                        </div>
+                        <h5>Dedicated Team</h5>
+                        <p>A team of talented engineers, with skills best suited to your business</p>
+                        <a class="btn " href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="single-servie">
+                        <div class="icon">
+                            <img src="./assets/images/web.svg" />
+                            <img class="on-hover" src="./assets/images/web.svg" />
+                        </div>
+                        <h5>Web Solutions</h5>
+                        <p>Unlock the true power of the Web Solutions today</p>
+                        <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="single-servie">
+                        <div class="icon">
+                            <img src="./assets/images/cloud-wifi.svg" />
+                            <img class="on-hover" src="./assets/images/cloud-wifi.svg" />
+                        </div>
+                        <h5>Cloud Services</h5>
+                        <p>Experience the limitless possibilities of cloud services.</p>
+                        <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a class="btn mt-50 animate__animated animate__fadeInUp wow" href="#">See All Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section class="portfolio bg-bluewhitegradient pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6 class="pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp wow">
+                        Portfolio</h6>
+                    <h2 class="fw-600 animate__animated animate__fadeInUp wow"><span
+                            class="clr-lightblue ">Projects</span> that make us stand out</h2>
+                    <div class="col-md-6 offset-md-3 mb-50 animate__animated animate__fadeInUp wow">
+                        <p class="fs-18 ">
+                            Nunc non dolor accumsan tellus fermentum ultricies a ut erat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="one-project-item">
+                        <div class="br-10 overflow-hidden"><img class="w-100"
+                                src="./assets/images/projects/project4.png" /></div>
+                        <div class="tags">
+                            <ul>
+                                <li> tempus </li>
+                                <li> aliquet eget </li>
+                                <!-- <li> tincidunt </li> -->
+                            </ul>
+                        </div>
+                        <h5 class="fw-700">Fusce Sollicitudin </h5>
+                        <p class="clr-pink"> Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris at
+                            auctor risus, sit amet vulputate nisl.</p>
+                        <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="one-project-item">
+                        <div class="br-10 overflow-hidden"><img class="w-100"
+                                src="./assets/images/projects/project5.png" /></div>
+                        <div class="tags">
+                            <ul>
+                                <li> nec </li>
+                                <li> molestie risus </li>
+                            </ul>
+                        </div>
+                        <h5 class="fw-700">Ublandit Consequat</h5>
+                        <p class="clr-pink"> Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris at
+                            auctor risus, sit amet vulputate nisl.</p>
+                        <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp wow">
+                    <div class="one-project-item">
+                        <div class="br-10 overflow-hidden"><img class="w-100"
+                                src="./assets/images/projects/project6.png" /></div>
+                        <div class="tags">
+                            <ul>
+                                <li> in </li>
+                                <li> varius </li>
+                                <li> natoque </li>
+                                <!-- <li> penatibus </li> -->
+                            </ul>
+                        </div>
+                        <h5 class="fw-700">Non Eros</h5>
+                        <p class="clr-pink"> Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris at
+                            auctor risus, sit amet vulputate nisl.</p>
+                        <a class="btn" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center animate__animated animate__fadeInUp wow">
+                    <a class="btn" href="#">See All Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Growth Section -->
+
+
+    <!-- Testimonial Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6 class="pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp wow">
+                        Feedbacks</h6>
+                    <h2 class="fw-600 animate__animated animate__fadeInUp wow">What our <span
+                            class="clr-lightblue">clients</span> are saying about us</h2>
+                    <div class="col-md-6 offset-md-3 mb-50 animate__animated animate__fadeInUp wow">
+                        <p class="fs-18">
+                            Nunc non dolor accumsan tellus fermentum ultricies a ut erat. Duis posuere libero ac
+                            scelerisque rhoncus. Maecenas in sodales nisl. Quisque sit amet ipsum nunc.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-10 offset-1">
+                    <div class="testimonials">
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face1.webp" /></span>
+                                    <div>
+                                        <h6>Alexander Harrington</h6>
+                                        <div class="designation">Chief Executive Officer (CEO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face2.webp" /></span>
+                                    <div>
+                                        <h6>Victoria Sinclair</h6>
+                                        <div class="designation">Chief Financial Officer (CFO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face3.png" /></span>
+                                    <div>
+                                        <h6>Jonathan Manning</h6>
+                                        <div class="designation">Chief Operating Officer (COO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face1.webp" /></span>
+                                    <div>
+                                        <h6>Olivia Fitzgerald</h6>
+                                        <div class="designation">Chief Marketing Officer (CMO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face2.webp" /></span>
+                                    <div>
+                                        <h6>Benjamin Thornton</h6>
+                                        <div class="designation">Chief Technology Officer (CTO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+                        <div class="px-5">
+                            <div class="one-testimon">
+                                <div class="d-flex align-items-center">
+                                    <span><img src="./assets/images/face3.png" /></span>
+                                    <div>
+                                        <h6>Isabella Rodriguez</h6>
+                                        <div class="designation">Chief Human Resources Officer (CHRO)</div>
+                                    </div>
+                                </div>
+                                <p>"Aliquam erat volutpat. Duis a lobortis massa. Cras feugiat nisl nulla, vel faucibus
+                                    dolor eleifend non. Duis vel nisi ac velit accumsan efficitur. "</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Drive More Section -->
+    <section class="mb-100 mt-50 drivemore">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bg-bglightblue text-center pt-100 pb-100 br-30">
+                        <h6 class="pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp wow">
+                            Become Partner</h6>
+                        <h2 class="fw-700 col-md-8 offset-md-2 animate__animated animate__fadeInUp wow">Drive more <span
+                                class="clr-lightblue">revenue</span> for your company</h2>
+                        <a class="btn btn-primary mt-30 animate__animated animate__fadeInUp wow" href="#">Get A
+                            Propsal</a>
+                        <img class="w-20rem animate__animated animate__fadeInUp wow" src="./assets/images/rocket.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="clearfix">
+
+        <!-- Main Footer -->
+        <section class="main-footer clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="navbar-brand logo animate__animated animate__fadeInUp wow" href="#">P<span
+                                class="clr-lightblue">i</span>X<span class="clr-navy">i</span>E</a>
+                        <p class="animate__animated animate__fadeInUp wow">Praesent nisl tortor, efficitur ac dolor eu,
+                            pulvinar bibendum nisl.</p>
+                        <div class="social mt-20">
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-facebook-f far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-x-twitter far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-linkedin far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-youtube far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-instagram far"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-md-1">
+                        <h6 class="animate__animated animate__fadeInUp wow">Company</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">About Us</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Careers</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Press & Media</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Contact Us</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Discover</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Our Blog</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Advertising</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Plans & Pricing</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Testimonials</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Legal</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Terms of Use</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Cookie Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">All FAQs</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Connect</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" class="fs-16" href="#"><i
+                                    class="fa-regular fa-envelope me_5"></i> email@example.com</a></div>
+                        <div><span class="fs-16 clr-navy mb-10 d-inline-block animate__animated animate__fadeInUp wow"
+                                href="#"><i class="fa-solid fa-location-dot me_5"></i> Union Street 3254, Baton</span>
+                        </div>
+                        <div><span class="fs-16 clr-navy animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-regular fa-clock me_5"></i> Mon - Fri, 09AM to 06PM</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom Footer -->
+        <section class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 animate__animated animate__fadeInUp wow">
+                        2024 &copy; Copyright, <a href="#">Nexus Themes</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-end">
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Terms & Privacy</a>
+                            <span class="divider"></span>
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to top button -->
+        <a href="#" class="backtotop"><i class="fa-solid fa-arrow-up"></i></a>
+
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Muri Masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- Wow Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Pixie Scripts -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

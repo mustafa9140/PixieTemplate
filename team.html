@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Pixie Styles -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <title>Pixie Multipurpose Website HTML5 Template</title>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Top Navigation -->
+        <section class="top-nav d-none d-lg-block ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center social-icons animate__animated animate__fadeInUp">
+                                <div><a href="#"><i class="fa-brands fa-facebook-f far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-x-twitter far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-linkedin far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-youtube far"></i></a></div>
+                                <div><a href="#"><i class="fa-brands fa-instagram far"></i></a></div>
+                            </div>
+                            <div class="d-flex align-items-center contact-bar animate__animated animate__fadeInUp">
+                                <div>
+                                    <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> (415) 555-0132</a>
+                                </div>
+                                <div>
+                                    <a href="#"><i class="fa-regular fa-envelope"></i> email@example.com</a>
+                                </div>
+                                <div>
+                                    <span href="#"><i class="fa-regular fa-clock"></i> Mon - Fri, 09:00AM to
+                                        06:00PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Navigation -->
+        <section class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <div
+                                class="d-lg-flex justify-content-between align-items-lg-center align-items-start  w-100">
+                                <a class="navbar-brand logo animate__animated animate__fadeInUp"
+                                    href="./index.html">P<span class="clr-lightblue">i</span>X<span
+                                        class="clr-navy">i</span>E</a>
+                                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <img class="open" src="./assets/images/burger-menu-right.svg" />
+                                    <img class="close" src="./assets/images/close.svg" />
+                                </button>
+                                <div class="collapse navbar-collapse flex-grow-0 animate__animated animate__fadeInUp"
+                                    id="navbarSupportedContent">
+                                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./about.html">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./services.html">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item active" href="./team.html">Team</a></li>
+                                                <li><a class="dropdown-item" href="./faqs.html">FAQs</a></li>
+                                                <li><a class="dropdown-item" href="./contact.html">Contact Us</a></li>
+                                                <li><a class="dropdown-item" href="./404.html">404 (Not Found)</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <form class="d-none">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Search</button>
+                                    </form>
+                                    <a class="btn btn-primary ms-5 d-lg-block d-none" href="./contact.html">Get A
+                                        Quote</a>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+
+    <!-- Banner With Breadcrumbs -->
+    <section class="banner-with-bcrumbs bg-bglightblue pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mb-5">
+                        <h1 class="animate__animated animate__fadeInUp">Our Team</h1>
+                    </div>
+                    <div class="breadcrumbs text-center fw-600 animate__animated animate__fadeInUp">
+                        <a class="link link-navy" href="./">Home</a>
+                        <span class="clr-black">&gt;</span>
+                        <span>Team</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Team Section -->
+    <section class="mt-100 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 pt-0 pt-lg-5">
+                    <div class="pt-0 pt-lg-5"></div>
+                    <h6
+                        class="pt-0 pt-lg-5 pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp">
+                        Talented Team</h6>
+                    <h2 class="fw-600 bottom-line pb-20 mb-25 animate__animated animate__fadeInUp">Meet the <span
+                            class="clr-lightblue">Numerique</span> revenue revolutionaries</h2>
+                    <div class=" mb-50 animate__animated animate__fadeInUp">
+                        <p class="fs-18">
+                            Nunc non dolor accumsan tellus fermentum ultricies a ut erat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <img class="w-100 br-40 animate__animated animate__fadeInUp" src="./assets/images/team2.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Members Section -->
+    <section class="pb-100 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-100">
+                    <h6 class="pb-2 expand clr-pink mb-10 text-uppercase animate__animated animate__fadeInUp wow">MEET
+                        OUR TEAM</h6>
+                    <h2 class="fw-600 bottom-line pb-20 mb-50 animate__animated animate__fadeInUp wow"> <span
+                            class="clr-lightblue">Experienced</span> Team Members</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 animate__animated animate__fadeInUp wow">
+                    <img class="w-100 br-30" src="./assets/images/team-img-1.png" />
+                    <h5 class="fw-700 mt-30">Ryan Mitchell</h5>
+                    <p>Project Manager</p>
+                </div>
+                <div class="col-md-3 animate__animated animate__fadeInUp wow">
+                    <img class="w-100 br-30" src="./assets/images/team-img-2.png" />
+                    <h5 class="fw-700 mt-30">Benjamin Davis</h5>
+                    <p>Financial Analyst</p>
+                </div>
+                <div class="col-md-3 animate__animated animate__fadeInUp wow">
+                    <img class="w-100 br-30" src="./assets/images/team-img-3.png" />
+                    <h5 class="fw-700 mt-30">Eric Thompson</h5>
+                    <p>Software Engineer</p>
+                </div>
+                <div class="col-md-3 animate__animated animate__fadeInUp wow">
+                    <img class="w-100 br-30" src="./assets/images/team-img-4.png" />
+                    <h5 class="fw-700 mt-30">Jason Reynolds</h5>
+                    <p>Research Analyst</p>
+                </div>
+            </div>
+    </section>
+
+
+    <footer class="clearfix">
+
+        <!-- Main Footer -->
+        <section class="main-footer clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="navbar-brand logo animate__animated animate__fadeInUp wow" href="#">P<span
+                                class="clr-lightblue">i</span>X<span class="clr-navy">i</span>E</a>
+                        <p class="animate__animated animate__fadeInUp wow">Praesent nisl tortor, efficitur ac dolor eu,
+                            pulvinar bibendum nisl.</p>
+                        <div class="social mt-20">
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-facebook-f far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-x-twitter far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-linkedin far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-youtube far"></i></a>
+                            <a class="animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-brands fa-instagram far"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-md-1">
+                        <h6 class="animate__animated animate__fadeInUp wow">Company</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">About Us</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Careers</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Press & Media</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Contact Us</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Discover</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Our Blog</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Advertising</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Plans & Pricing</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Testimonials</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Legal</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Terms of Use</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">Cookie Policy</a></div>
+                        <div><a class="animate__animated animate__fadeInUp wow" href="#">All FAQs</a></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="animate__animated animate__fadeInUp wow">Connect</h6>
+                        <div><a class="animate__animated animate__fadeInUp wow" class="fs-16" href="#"><i
+                                    class="fa-regular fa-envelope me_5"></i> email@example.com</a></div>
+                        <div><span class="fs-16 clr-navy mb-10 d-inline-block animate__animated animate__fadeInUp wow"
+                                href="#"><i class="fa-solid fa-location-dot me_5"></i> Union Street 3254, Baton</span>
+                        </div>
+                        <div><span class="fs-16 clr-navy animate__animated animate__fadeInUp wow" href="#"><i
+                                    class="fa-regular fa-clock me_5"></i> Mon - Fri, 09AM to 06PM</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom Footer -->
+        <section class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 animate__animated animate__fadeInUp wow">
+                        2024 &copy; Copyright, <a href="#">Nexus Themes</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-end">
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Terms & Privacy</a>
+                            <span class="divider"></span>
+                            <a class="animate__animated animate__fadeInUp wow" href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to top button -->
+        <a href="#" class="backtotop"><i class="fa-solid fa-arrow-up"></i></a>
+
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- Muri Masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- Wow Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Pixie Scripts -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
