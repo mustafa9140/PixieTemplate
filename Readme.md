@@ -4,3 +4,5 @@ Pixie is a bootstrap based website free template. It is fully flexible user-frie
 
 
 Live Preview: https://mustafa9140.github.io/Pixie/
+
+Documentation: https://mustafa9140.github.io/Pixie/documentation
